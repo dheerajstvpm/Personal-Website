@@ -54,7 +54,6 @@ $("#contactForm").submit((e)=>{
             success:function (response){
                 alert("Form submitted successfully")
                 window.location.reload(true)
-                //window.location.href="https://google.com"
             },
             error:function (err){
                 alert("Some error occured")

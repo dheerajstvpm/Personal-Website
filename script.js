@@ -16,7 +16,7 @@ function validate(){
         alert("Enter a valid email");  
         return false;
     }
-    else if(email.value.indexOf('.')- email.value.indexOf('@') <= 1){
+    else if (Math.abs(email.value.indexOf('.')- email.value.indexOf('@')) <= 1){
         alert("Enter a valid email");
         return false;
     }
